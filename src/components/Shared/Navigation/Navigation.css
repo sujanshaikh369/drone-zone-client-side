@@ -1,0 +1,12 @@
+.nav-logo {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.nav-logo:hover {
+    color: green !important;
+}
+
+.navi-hov:hover {
+    color: rgb(194, 174, 84) !important;
+}
