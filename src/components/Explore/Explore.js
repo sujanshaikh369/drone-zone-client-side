@@ -7,7 +7,7 @@ const Explore = () => {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://safe-ridge-90753.herokuapp.com/product")
       .then((res) => res.json())
       .then((data) => {
         setItems(data);

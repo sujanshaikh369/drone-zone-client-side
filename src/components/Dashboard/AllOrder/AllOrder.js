@@ -6,7 +6,7 @@ const AllOrders = () => {
   const [isDelete, setIsDelete] = useState(false);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/order")
+    fetch("https://safe-ridge-90753.herokuapp.com/order")
       .then((res) => res.json())
       .then((data) => setOrder(data));
     setLoading(false);
@@ -17,7 +17,7 @@ const AllOrders = () => {
     // console.log(id);
     const proceed = window.confirm("are you sure, delete this package?");
     if (proceed) {
-      fetch(`http://localhost:5000/deleteOrder/${id}`, {
+      fetch(`https://safe-ridge-90753.herokuapp.com/deleteOrder/${id}`, {
         method: "delete",
         headers: {
           "content-type": "application/json",

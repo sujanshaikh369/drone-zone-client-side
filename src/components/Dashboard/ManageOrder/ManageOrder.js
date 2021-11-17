@@ -9,7 +9,7 @@ const ManageOrder = () => {
   const [Loading, setLoading] = useState(true);
   const [orderId, setOrderId] = useState("");
   useEffect(() => {
-    fetch("http://localhost:5000/order")
+    fetch("https://safe-ridge-90753.herokuapp.com/order")
       .then((res) => res.json())
       .then((data) => {
         setOrders(data);
@@ -25,7 +25,7 @@ const ManageOrder = () => {
 
   const onSubmit = (data) => {
     console.log(data, orderId);
-    fetch(`http://localhost:5000/statusUpdate/${orderId}`, {
+    fetch(`https://safe-ridge-90753.herokuapp.com/statusUpdate/${orderId}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
@@ -38,7 +38,7 @@ const ManageOrder = () => {
   const handleDelete = (id) => {
     const proceed = window.confirm("are you sure, delete this package?");
     if (proceed) {
-      fetch(`http://localhost:5000/deleteOrder/${id}`, {
+      fetch(`https://safe-ridge-90753.herokuapp.com/deleteOrder/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

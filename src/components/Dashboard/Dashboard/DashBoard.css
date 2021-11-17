@@ -1,12 +1,11 @@
 .bashboard-manu {
-    background: #000000;
+    background: green;
     height: 100vh;
     overflow-y: scroll;
 }
 
-
 .user {
-    color: #fff;
+    color: #000;
 }
 
 .user img {
@@ -17,13 +16,18 @@
 }
 
 .logOut_btn {
-    background: crimson;
+    background: rgb(199, 10, 10);
     padding: 6px 20px;
     border: none;
     border-radius: 20px;
     outline: none;
     color: #ffff;
     margin-top: 10px;
+}
+
+.logOut_btn:hover {
+    background: rgb(153, 7, 7);
+    transition: 00.5s;
 }
 
 .all-order li {
@@ -34,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #000;
     margin: 20px;
     cursor: pointer;
     transition: 0.5s;

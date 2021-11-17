@@ -11,7 +11,7 @@ const PlaceOrder = () => {
   const [singleProduct, setSingleProduct] = useState([]);
   const { id } = useParams();
   useEffect(() => {
-    fetch(`http://localhost:5000/product/${id}`)
+    fetch(`https://safe-ridge-90753.herokuapp.com/product/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setSingleProduct(data);
@@ -26,7 +26,7 @@ const PlaceOrder = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    fetch(`http://localhost:5000/order`, {
+    fetch(`https://safe-ridge-90753.herokuapp.com/order`, {
       method: "post",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

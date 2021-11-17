@@ -8,7 +8,7 @@ const Product = () => {
   const [items, setItems] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://safe-ridge-90753.herokuapp.com/product")
       .then((res) => res.json())
       .then((data) => {
         setItems(data);
@@ -43,8 +43,8 @@ const Product = () => {
                         <div className="pack-icon">
                           <Rating
                             initialRating={parseInt(items?.reveiw)}
-                            emptySymbol="far fa-star"
-                            fullSymbol="fas fa-star"
+                            emptySymbol="far fa-star rating-review-home"
+                            fullSymbol="fas fa-star rating-review-home"
                             readonly
                           ></Rating>
                         </div>

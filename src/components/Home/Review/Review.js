@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Rating from "react-rating";
+import "./Review.css";
 
 const Review = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/review")
+    fetch("https://safe-ridge-90753.herokuapp.com/review")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
@@ -26,8 +27,8 @@ const Review = () => {
                   <div className="testimonial-icon">
                     <Rating
                       initialRating={reveiw}
-                      emptySymbol="far fa-star"
-                      fullSymbol="fas fa-star"
+                      emptySymbol="far fa-star rating-review-home"
+                      fullSymbol="fas fa-star rating-review-home"
                       readonly
                     ></Rating>
                   </div>

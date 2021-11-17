@@ -12,7 +12,7 @@ const AddProduct = () => {
   } = useForm();
   const onSubmit = (data) => {
     console.log(data);
-    fetch("http://localhost:5000/product", {
+    fetch("https://safe-ridge-90753.herokuapp.com/product", {
       method: "post",
       headers: {
         "content-type": "application/json",

@@ -43,7 +43,7 @@ const Dashboard = () => {
                       <NavLink
                         style={{
                           textDecoration: "none",
-                          color: "#fff",
+                          color: "#000;",
                           background: "none",
                         }}
                         to={`${url}`}
@@ -60,7 +60,7 @@ const Dashboard = () => {
                       <NavLink
                         style={{
                           textDecoration: "none",
-                          color: "#fff",
+                          color: "#000",
                           background: "none",
                         }}
                         to="/"
@@ -78,7 +78,7 @@ const Dashboard = () => {
                         <NavLink
                           style={{
                             textDecoration: "none",
-                            color: "#fff",
+                            color: "#000",
                             background: "none",
                           }}
                           to={`${url}/myOrder`}
@@ -97,7 +97,7 @@ const Dashboard = () => {
                         <NavLink
                           style={{
                             textDecoration: "none",
-                            color: "#fff",
+                            color: "#000",
                             background: "none",
                           }}
                           to={`${url}/addProduct`}
@@ -115,7 +115,7 @@ const Dashboard = () => {
                       <NavLink
                         style={{
                           textDecoration: "none",
-                          color: "#fff",
+                          color: "#000",
                           background: "none",
                         }}
                         to={`${url}/myOrder`}
@@ -128,13 +128,13 @@ const Dashboard = () => {
                   {admin && (
                     <div className="all-order">
                       <div className="icon pe-3">
-                        <i className="far fa-user"></i>
+                        <i class="fas fa-user"></i>
                       </div>
                       <li className="admin-menu p-2">
                         <NavLink
                           style={{
                             textDecoration: "none",
-                            color: "#fff",
+                            color: "#000",
                             background: "none",
                           }}
                           to={`${url}/makeAdmin`}
@@ -154,7 +154,7 @@ const Dashboard = () => {
                         <NavLink
                           style={{
                             textDecoration: "none",
-                            color: "#fff",
+                            color: "#000",
                             background: "none",
                           }}
                           to={`${url}/manageOrder`}
@@ -173,7 +173,7 @@ const Dashboard = () => {
                         <NavLink
                           style={{
                             textDecoration: "none",
-                            color: "#fff",
+                            color: "#000",
                             background: "none",
                           }}
                           to={`${url}/mangeProduct`}
@@ -191,7 +191,7 @@ const Dashboard = () => {
                       <NavLink
                         style={{
                           textDecoration: "none",
-                          color: "#fff",
+                          color: "#000",
                           background: "none",
                         }}
                         to={`${url}/review`}
@@ -208,7 +208,7 @@ const Dashboard = () => {
                       <NavLink
                         style={{
                           textDecoration: "none",
-                          color: "#fff",
+                          color: "#000",
                           background: "none",
                         }}
                         to={`${url}/payment`}

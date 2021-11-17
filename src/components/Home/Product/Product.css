@@ -5,7 +5,7 @@
 }
 
 .service-btn {
-    background: rgba(173, 179, 173, 0.424);
+    background: green;
     padding: 8px 40px;
     font-weight: 700;
     color: rgb(19, 18, 18);
@@ -15,7 +15,7 @@
 }
 
 .service-btn:hover {
-    background: green;
+    background: rgb(31, 177, 31);
     transition: all 0.6s;
 }
 

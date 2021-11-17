@@ -56,31 +56,31 @@
 		"price": 1599
 	},
 	{
-		"model": "DJI Mavic 2 Zoom",
-		"des": "The Mavic 2 Zoom introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
-		"img": "https://149355317.v2.pressablecdn.com/wp-content/uploads/2019/10/DJI-Mavic-2-Pro-Top-Camera-Drones-.jpg",
+		"model": "DJI Action 3",
+		"des": "DJI Action 3 introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
+		"img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Fdji-action-2&psig=AOvVaw1zZk5k0P2zh4Bb0F0JF6-M&ust=1637259376684000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLi9lteAoPQCFQAAAAAdAAAAABAD",
 		"review": "4.5",
-		"price": 1649
+		"price": 2999
 	},
 	{
-		"model": "DJI Mavic 2 Zoom",
-		"des": "The Mavic 2 Zoom introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
-		"img": "https://149355317.v2.pressablecdn.com/wp-content/uploads/2019/10/DJI-Mavic-2-Pro-Top-Camera-Drones-.jpg",
-		"review": "4.5",
-		"price": 1649
+		"model": "DJI FPV",
+		"des": "DJI FPV introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
+		"img": "https://dji-official-fe.djicdn.com/cms/uploads/14e0682b284b13f39919c800c370dd95.jpg",
+		"review": "5",
+		"price": 1889
 	},
 	{
-		"model": "DJI Mavic 2 Zoom",
-		"des": "The Mavic 2 Zoom introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
-		"img": "https://149355317.v2.pressablecdn.com/wp-content/uploads/2019/10/DJI-Mavic-2-Pro-Top-Camera-Drones-.jpg",
-		"review": "4.5",
-		"price": 1649
+		"model": "DJI RC Pro",
+		"des": "DJI RC Pro introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
+		"img": "https://cdn11.bigcommerce.com/s-pbrbk935u7/images/stencil/500x659/products/17332/61851/dji_cp_ma_00000439_01_mavic_3_1636064531_1665138__01893.1636138285.jpg?c=2",
+		"review": "4",
+		"price": 1779
 	},
 	{
-		"model": "DJI Mavic 2 Zoom",
-		"des": "The Mavic 2 Zoom introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
-		"img": "https://149355317.v2.pressablecdn.com/wp-content/uploads/2019/10/DJI-Mavic-2-Pro-Top-Camera-Drones-.jpg",
-		"review": "4.5",
-		"price": 1649
+		"model": "DJI Mini SE",
+		"des": "DJI Mini SE introduces brand new zooming capabilities. The 24mm – 48mm zoom lens offers 2x optical zoom and 2x digital zoom, giving photographers and filmmakers more flexibility when it comes to framing their shots. ",
+		"img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dpreview.com%2Fnews%2F4086798086%2Fno-need-to-refresh-for-new-info-mini-se-drone-details-published-the-dji-brasil-website&psig=AOvVaw2UD8nVE5daCm4chWqHQoS9&ust=1637258948475000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIDx7Yv_n_QCFQAAAAAdAAAAABAD",
+		"review": "4.2",
+		"price": 999
 	}
 ]
